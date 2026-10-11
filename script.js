@@ -152,7 +152,7 @@
   }
   if (riskList) {
     riskList.innerHTML = RISK.map(function (r, i) {
-      return "<div class=\"rq\"><span id=\"rq-" + i + "\">" + r[0] + "</span>" +
+      return "<div class=\"rq\"><span class=\"rq-q\" id=\"rq-" + i + "\">" + r[0] + "</span>" +
         "<span class=\"yn\" role=\"group\" aria-labelledby=\"rq-" + i + "\">" +
         "<button type=\"button\" id=\"rq-" + i + "-y\" data-q=\"" + i + "\" data-v=\"1\">Yes</button>" +
         "<button type=\"button\" id=\"rq-" + i + "-n\" data-q=\"" + i + "\" data-v=\"0\">No</button></span></div>";

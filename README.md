@@ -1,12 +1,12 @@
-# Portfolio V2.3 — Martin Azihaiwe-Justin (Flight theme)
+# Portfolio V3 — Martin Azihaiwe-Justin (Flight system v3)
 
-A static, dependency-free site (plain HTML/CSS/JS, no build step). It's the original Flight design (drone hero, callouts, graphite dark zone, taxiing drone on the runway) with the V2 content re-told as a flight. The only third-party request is Calendly, and it loads only when someone clicks a booking button.
+A static, dependency-free site (plain HTML/CSS/JS, no build step). It's the original Flight design (drone hero, callouts, graphite dark zone, taxiing drone on the runway) with the V2 content re-told as a flight, upscaled to the **Flight system v3** visual layer: Hubot Sans display, Mona Sans text, Monaspace Neon labels, tokenised colour/spacing/type scale, pill buttons with SVG icons, and hairline grids. The only third-party request is Calendly, and it loads only when someone clicks a booking button.
 
 ## Files
 - `index.html` — the page, with SEO meta, Open Graph/Twitter cards and JSON-LD (Person, ProfessionalService, FAQPage)
-- `style.css` — the original Flight stylesheet plus V2.1 components (checklist, route map, black box, pre-flight check)
+- `style.css` — Flight system v3: design tokens on `:root` (re-scoped for `.dark-zone`), type roles (`.label`, `.h2`, `.h3`), components, responsive and reduced-motion rules
 - `script.js` — scroll reveals, hero parallax, mobile nav, checklist, AI release comparison, pre-flight check, copy email, mobile action bar, lazy Calendly
-- `assets/` — drone images, avatar, résumé PDF, `og-image.png`, Geist + Geist Mono fonts (SIL Open Font License)
+- `assets/` — drone images (PNG + responsive WebP), avatar, résumé PDF, `og-image.png`, Hubot Sans / Mona Sans / Monaspace Neon fonts (SIL Open Font License)
 - `vercel.json`, `robots.txt`, `sitemap.xml`, `llms.txt`
 
 ## Deploy
